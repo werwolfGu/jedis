@@ -3582,4 +3582,11 @@ public class Jedis extends BinaryJedis implements JedisCommands, MultiKeyCommand
     return BuilderFactory.MODULE_LIST.build(client.getObjectMultiBulkReply());
   }
 
+  public static void main(String[] args) {
+    Jedis jedis = new Jedis("192.168.100.120",6379);
+    jedis.auth("redispassword");
+    jedis.set("key2","test");
+    jedis.setnx("key2","test");
+  }
+
 }
