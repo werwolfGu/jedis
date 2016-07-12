@@ -1803,6 +1803,6 @@ public class JedisCluster extends BinaryJedisCluster implements JedisClusterComm
   }
 
   public static void main(String[] args) {
-
+    
   }
 }
