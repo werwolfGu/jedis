@@ -1803,6 +1803,9 @@ public class JedisCluster extends BinaryJedisCluster implements JedisClusterComm
   }
 
   public static void main(String[] args) {
+
     System.out.println("abcdefg");
+      System.out.println("dhdhdhd");
+
   }
 }
