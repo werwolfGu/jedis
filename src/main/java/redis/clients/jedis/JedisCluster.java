@@ -1807,7 +1807,11 @@ public class JedisCluster extends BinaryJedisCluster implements JedisClusterComm
     System.out.println("abcdefg");
     System.out.print("shshsh");
     System.out.print("shshshsh");
+
     System.out.print("shshshshs     ss");
+
+    System.out.print("sh     shshshsss");
+
     System.out.println("dhdhdhd");
 
   }
